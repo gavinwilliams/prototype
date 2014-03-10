@@ -1,0 +1,18 @@
+<ul>
+
+	<li ng-repeat="result in results">
+		<input type="number" ng-change="updateCircles()" ng-model="result.value" />
+		<span class="colour" style="background-color: {{ result.color }}"></span>
+	</li>
+
+</ul>
+
+<ul>
+
+	<li ng-repeat="result in results">
+		{{ result.value }}
+	</li>
+
+</ul>
+
+<svg width="700" height="700" id="results"></svg>
