@@ -9,4 +9,11 @@
 * Run ```bower install``` in the project folder
 * Run ```grunt serve``` to start the server
 
+# Bonus
+* £50 - If you can get it to animate between the values
+* £20 - If you can fix the epilepsy bug as the values change
+
 The project exists in app/scripts/controllers/main.js
+
+# Links
+* [Learning d3.js](https://www.dashingd3js.com/table-of-contents)
